@@ -1,5 +1,5 @@
-Site catalogue transcription from Montpelier
-============================================
+Site catalogue transcription from Fort Snelling
+===============================================
 
 An application for transcription of PDF site catalogue files from excavations.
 

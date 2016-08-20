@@ -1,0 +1,84 @@
+<div id="modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal header -->
+            <div class="modal-header">
+                <h3>Fort Snelling PDF transcriptions</h3>
+            </div>
+
+            <!-- Step 1 of the tutorial -->
+            <div id="0" class="modal-body" style="display:none">
+                <h4>Information needed</h4>
+                <p>
+                    The catalog numbers (on the left side of the page) should consist of three parts such as: 343.2.11.
+Often the complete number is not written in full. Please enter the complete number on every line, separated by periods, not dashes (even though that is how they are usually written in the book).
+
+When number ranges are entered, such as 343.9.2-7, enter one catalog number per line and repeat the associated description (343.9.2, 343.9.3, 343.9.4…)
+
+Enter a numerical value for the count. If no count is given, enter “1.”
+
+If ditto marks appear on a line, repeat the text that appears on the line above the marks.
+                </p>
+            </div>
+
+            <!-- Step 2 of the tutorial -->
+            <div id="1" class="modal-body" style="display:none">
+                <p>
+                   If an image of an artifact or mark appears in the catalog, enter the word image surrounded by double square brackets like this: [[image]].
+
+Apart from the exceptions listed above, enter the description given as written. Do not correct misspellings. Do not attempt to recreate line breaks. Enter any margin notes at the end of the description they seem to be associated with. Repeat the margin text in multiple lines it seems to apply to more than one.
+
+If you cannot read all or any of the description, use double brackets to enclose your guess at the illegible word(s) or a note saying it was illegible, like this: [[illegible]].
+                </p>
+                <p>
+                    <strong>Please enter the number or descriptive information from above and not the ".</strong>
+                </p>
+            </div>
+
+             <div id="2" class="modal-body" style="display:none">
+                <p>
+                   Lastly, please capture the site number.
+                </p>
+            </div>
+
+
+            <!-- End of stepped modal body -->
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <a id="prevBtn" href="#" onclick="showStep('prev')" class="btn btn-default">Previous</a>
+                <a id="nextBtn" href="#" onclick="showStep('next')" class="btn btn-success">Next</a>
+                <a id="startContrib" data-dismiss="modal" href="../FortSnelling" class="btn btn-primary"
+                   style="display:none"/><i class="glyphicon glyphicon-thumbs-up"></i> Let's start!</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var step = -1;
+    function showStep(action) {
+        $("#" + step).hide();
+        if (action == 'next') {
+            step = step + 1;
+        }
+        if (action == 'prev') {
+            step = step - 1;
+        }
+        if (step == 0) {
+            $("#prevBtn").hide();
+        }
+        else {
+            $("#prevBtn").show();
+        }
+        if (step == 2 ) {
+            $("#nextBtn").hide();
+            $("#startContrib").show();
+        }
+        $("#" + step).show();
+    }
+    showStep('next');
+    $("#modal").modal('show');
+
+
+</script>

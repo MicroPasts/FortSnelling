@@ -1,0 +1,8 @@
+
+The Minnesota Historical Society curates over 600 cubic feet of collections generated during excavations conducted at Historic Fort Snelling between the mid 1960s and the early 1980s. Because this work took place in a largely pre-digital era, the documentation consisted of paper records only. The volume of artifacts and paper limited access to and use of this valuable collection. The Archaeology Department at MNHS received state grant funding in 2013 to inventory the Fort Snelling collections and make them more available for research. The artifact inventory will be completed by June 2017. Transcription of the original catalog records will not be completed in the next year without additional work by volunteers.
+
+**Fort Snelling History**
+
+The United States government established Fort Snelling at the confluence of the Mississippi and Minnesota Rivers in 1820 to protect American fur trade interests in the region and to gain a foothold in the western territory that would become Minnesota. The fort served various military functions until 1945 when the army discontinued use of the site. (http://www.historicfortsnelling.org/history).
+
+In 1956, proposed construction of a highway through the middle of the historic fort created a public outcry. Although only four original structures remained standing, interest in the site prompted the state of Minnesota to hire an archaeologist to determine if significant deposits remained below ground. The answer was an unequivocal yes. The highway was rerouted and the Minnesota Historical Society acquired the property to serve as a living history museum by restoring the fort to its 1820s appearance.

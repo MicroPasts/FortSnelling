@@ -278,16 +278,22 @@ If you cannot read all or any of the description, use double brackets to enclose
 			var data = [[]];
 			var config = {
 				data : data,
-				minRows : 10,
+				minRows : 30,
 				minCols : 3,
+				height: 320,
+				width: '100%',
 				minSpareRows : 0,
 				minSpareCols : 0,
-				maxRows : 40,
+				maxRows : 600,
 				autoWrapRow : true,
 				autoWrapCol : true,
 				autoColumnSize : true,
 				colHeaders : ['Catalogue number', 'Count', 'Description'],
-				stretchH : 'all'
+				stretchH : 'all',
+				contextMenu: ['row_above', 'row_below', 'remove_row'],
+				rowHeaders: true,
+				colWidths: ['20%','20%','80%']
+
 			};
 			$("#snellingTable").handsontable(config);
 			$('.btn-answer').off('click').on('click', function(evt) {
@@ -345,6 +351,8 @@ If you cannot read all or any of the description, use double brackets to enclose
     }
     .btn-group {
     margin-bottom: 0px
+    }
+    #snellingTable {
     }
 
 </style>
